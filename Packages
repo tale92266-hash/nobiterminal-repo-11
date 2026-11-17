@@ -1,0 +1,41 @@
+Package: clvk
+Architecture: aarch64
+Installed-Size: 91688
+Maintainer: @termux
+Version: 0.0.20261115.201248-1
+Homepage: https://github.com/kpet/clvk
+Depends: libc++, vulkan-loader
+Recommends: ocl-icd
+Description: Experimental implementation of OpenCL on Vulkan
+Filename: ./clvk_0.0.20261115.201248-1_aarch64.deb
+Size: 22067780
+MD5sum: 037d2a9361241de0aaa9a2ca30e38c59
+SHA1: e896b6ef37264d99909746fea11b6a693a30f239
+SHA256: af1f7584a514949cf36094918d10debf93b22f24cedc840a4eb25aaeabab1ae7
+
+Package: rabbitmq-server
+Architecture: all
+Installed-Size: 67228
+Maintainer: @termux
+Version: 4.4.1-1
+Homepage: https://github.com/rabbitmq/rabbitmq-server
+Depends: erlang
+Description: Feature rich, multi-protocol messaging and streaming broker
+Filename: ./rabbitmq-server_4.4.1-1_all.deb
+Size: 31684408
+MD5sum: d260e3c068dca3bc4f6e945d7c579696
+SHA1: e88375648e620334164678f1e6e525c983ca4aae
+SHA256: d2034f6b5a158e09dc1a6b434c748686b780a42457aaf07106630cfbec8c82ad
+
+Package: zrok2
+Architecture: aarch64
+Installed-Size: 103884
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 2.0.10-1
+Homepage: https://zrok.io/
+Description: An open source sharing solution built on OpenZiti
+Filename: ./zrok2_2.0.10-1_aarch64.deb
+Size: 22616984
+MD5sum: cb319c8780ec21e91bcd42199b2e875c
+SHA1: f709d392383e3d0e2bf76940afe70f6e203ecb45
+SHA256: 48e9de8abb90b67cafee390487edc62612856cc254da08ec38aa0cb9ca68a076
