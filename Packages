@@ -13,6 +13,133 @@ MD5sum: 037d2a9361241de0aaa9a2ca30e38c59
 SHA1: e896b6ef37264d99909746fea11b6a693a30f239
 SHA256: af1f7584a514949cf36094918d10debf93b22f24cedc840a4eb25aaeabab1ae7
 
+Package: docker-compose
+Architecture: aarch64
+Installed-Size: 31308
+Maintainer: @termux
+Version: 5.7.2-1
+Homepage: https://github.com/docker/compose
+Depends: docker-cli
+Description: Compose is a tool for defining and running multi-container Docker applications.
+Filename: ./docker-compose_5.7.2-1_aarch64.deb
+Size: 7300556
+MD5sum: 90395c20ec856929076e1b3c7c2feba3
+SHA1: 26d3ca6c02084ac406918816a6263c32c65b6c11
+SHA256: 67d478d07b681b66b098e90b0862c1b1d627760372e9003be3251d1d102c6801
+
+Package: golang-doc
+Architecture: aarch64
+Installed-Size: 476
+Maintainer: @termux
+Version: 3:1.27.4-1
+Homepage: https://go.dev/
+Depends: golang (= 3:1.27.4-1)
+Description: Go programming language - documentation
+Filename: ./golang-doc_3:1.27.4-1_aarch64.deb
+Size: 94708
+MD5sum: 4e739f52c1a0183f52b3fcf303f58298
+SHA1: 5bdc3f1c3b117589bfd5eedef931365abc782ed7
+SHA256: dab90fd1fe50986dc5302144555522d5f9c8169054baeb765cf9ac002ea41722
+
+Package: golang
+Architecture: aarch64
+Installed-Size: 224128
+Maintainer: @termux
+Version: 3:1.27.4-1
+Homepage: https://go.dev/
+Depends: clang
+Recommends: resolv-conf
+Description: Go programming language compiler
+Filename: ./golang_3:1.27.4-1_aarch64.deb
+Size: 38178736
+MD5sum: 2e0b62c97843daa7c6cf66cf34b8dce5
+SHA1: f31c2d1eb0eb539f17d80cced93b0d6a740005aa
+SHA256: 331beb2ebe7d516e52c93ad7c04fbe86b1ff7116a23dcab70d64085dad3d50ea
+
+Package: jackett
+Architecture: aarch64
+Installed-Size: 14976
+Maintainer: @termux
+Version: 0.24.3078-1
+Homepage: https://github.com/jackett/jackett
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Description: API Support for your favorite torrent trackers
+Filename: ./jackett_0.24.3078-1_aarch64.deb
+Size: 3226712
+MD5sum: a83edee641a05d5b51c76ee75b1d2732
+SHA1: ec6708c750dd5c603420e9005ba2e5ea1cbbeeab
+SHA256: 14024e2e97f90708157bbfa8d954db5d6850f006d499ad1e0b7132a122ec8824
+
+Package: libgnt
+Architecture: aarch64
+Installed-Size: 524
+Maintainer: @termux
+Version: 2.15.0-1
+Homepage: https://keep.imfreedom.org/libgnt/libgnt
+Depends: glib, libxml2, ncurses, ncurses-ui-libs
+Description: An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way
+Filename: ./libgnt_2.15.0-1_aarch64.deb
+Size: 95180
+MD5sum: 251b22beb19a4ac29c99a0d941cf4793
+SHA1: 262ecf74a734c28a2e88f53fa594cad0155d47a2
+SHA256: 96dc6dcb4bc85ca11479434550bc31d7ed87c01adbc1530e1b6cf6b45da22dac
+
+Package: libsigsegv-static
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 2.16-1
+Homepage: https://www.gnu.org/software/libsigsegv/
+Depends: libsigsegv (= 2.16-1)
+Description: Static libraries for libsigsegv
+Filename: ./libsigsegv-static_2.16-1_aarch64.deb
+Size: 5852
+MD5sum: 3bdb1e1f4b5bd999af7d20ca85c9cdcd
+SHA1: bb7434146422ad41e2160384c0689b72ec5215b3
+SHA256: f3d00587eb7631de5058570953dd18ec1a8d0ae4acf7ca2979d36ae5ce063581
+
+Package: libsigsegv
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 2.16-1
+Homepage: https://www.gnu.org/software/libsigsegv/
+Breaks: libsigsegv-dev
+Replaces: libsigsegv-dev
+Description: GNU libsigsegv is a library for handling page faults in user mode
+Filename: ./libsigsegv_2.16-1_aarch64.deb
+Size: 8908
+MD5sum: 6172884809b8af0257a40e785bbd4e0b
+SHA1: 282459ee4930294a1a1180fbf4af9cfa8d14b86f
+SHA256: 4a66b785304b7f6b5e224cfde6a5331d62fd7ad89c7ffda3d7923c047a25b0ba
+
+Package: mailpit
+Architecture: aarch64
+Installed-Size: 27044
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.34.0-1
+Homepage: https://mailpit.axllent.org
+Description: An email and SMTP testing tool with API for developers
+Filename: ./mailpit_1.34.0-1_aarch64.deb
+Size: 7509408
+MD5sum: fc88de6bb5a0152ef0aaf66fe8a0e756
+SHA1: 385af9fc09b5ef72d17b0ad590b6989d26e99a20
+SHA256: 5027f543cfe2ad71e3ed9ddb597c213825cc6300d74d3df3a89d888ee2ac32ac
+
+Package: oci-cli
+Architecture: aarch64
+Installed-Size: 68784
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 3.96.3-1
+Homepage: https://github.com/oracle/oci-cli
+Depends: python, python-pip, python-cryptography, python-crc32c
+Description: Command line interface for Oracle Cloud Infrastructure
+Filename: ./oci-cli_3.96.3-1_aarch64.deb
+Size: 2113808
+MD5sum: a41e05c5f53d729d86a424296ca8b560
+SHA1: 63e82d059e524d4fc68253fd54ed679980cd357b
+SHA256: 7ffa7550f91790bf00e17aab9ffad3d00dc10a2437decce6e591cfe2fd5a1845
+
 Package: rabbitmq-server
 Architecture: all
 Installed-Size: 67228
@@ -26,6 +153,175 @@ Size: 31684408
 MD5sum: d260e3c068dca3bc4f6e945d7c579696
 SHA1: e88375648e620334164678f1e6e525c983ca4aae
 SHA256: d2034f6b5a158e09dc1a6b434c748686b780a42457aaf07106630cfbec8c82ad
+
+Package: rust-docs
+Architecture: all
+Installed-Size: 909360
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Description: Rust documentation
+Filename: ./rust-docs_1.100.0-1_all.deb
+Size: 33606732
+MD5sum: 63d2f430aec994b5f105024cce103e25
+SHA1: 5e8166009c747fa94082a19a380d493a3b637049
+SHA256: 2524746ec97646b85783d83085c5e410124d9de2a7756d93e96f3379727358e9
+
+Package: rust-std-aarch64-linux-android
+Architecture: aarch64
+Installed-Size: 20296
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target aarch64-linux-android
+Filename: ./rust-std-aarch64-linux-android_1.100.0-1_aarch64.deb
+Size: 3566128
+MD5sum: c411f8437e187db9278537b53b57b7d9
+SHA1: aaf641dbfd22f16ac1d9a5d961272fb9b1595856
+SHA256: f4c928d208262cb68d734318443b01b8ad472443c3e58dfef4ebb72238952afe
+
+Package: rust-std-armv7-linux-androideabi
+Architecture: aarch64
+Installed-Size: 15076
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target armv7-linux-androideabi
+Filename: ./rust-std-armv7-linux-androideabi_1.100.0-1_aarch64.deb
+Size: 3297720
+MD5sum: d41019a3d21997d266eca7724cfb4d76
+SHA1: e00a77617a08f347f907c2635b4d3767a0a8fb83
+SHA256: b4c1a28cbc84d3dbdc51615f048bcd2126335359e4daf1dad6034f36cb3006f6
+
+Package: rust-std-i686-linux-android
+Architecture: aarch64
+Installed-Size: 14568
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target i686-linux-android
+Filename: ./rust-std-i686-linux-android_1.100.0-1_aarch64.deb
+Size: 3299368
+MD5sum: 72334ea96d79fa4aa5c11805012fe6f5
+SHA1: d1ac84377f20a04fbfbc94980082b4bd7d941eb5
+SHA256: 7b2fa0747eede918d8c9321dcdc849f5a54461345cb2868fef1b0e177b50c4da
+
+Package: rust-std-wasm32-unknown-unknown
+Architecture: all
+Installed-Size: 90384
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust-std-wasm32 (<< 1.74.1-1)
+Replaces: rust-std-wasm32 (<< 1.74.1-1)
+Description: Component files for target wasm32-unknown-unknown
+Filename: ./rust-std-wasm32-unknown-unknown_1.100.0-1_all.deb
+Size: 20880936
+MD5sum: 49f1eeed63a38f6e6edd8b2372445b70
+SHA1: 44537d1cb69fd07fc795a1e104a1462f2b95c8e8
+SHA256: 1922ac490914579011616cba17fa8258273a818ced3e1df81fcb49d6bbd8abe8
+
+Package: rust-std-wasm32-wasip1
+Architecture: all
+Installed-Size: 95148
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip1
+Filename: ./rust-std-wasm32-wasip1_1.100.0-1_all.deb
+Size: 22047352
+MD5sum: 21c7151f029cd0c976a42c38dd76dd34
+SHA1: adeb90f048a648bc4f56757592a3b2fd3fa492a4
+SHA256: fa86d06b5e0ff7d19c4c83861f2b1747c8719d5a2a7502302a7e39a6d4971e2a
+
+Package: rust-std-wasm32-wasip2
+Architecture: all
+Installed-Size: 97948
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip2
+Filename: ./rust-std-wasm32-wasip2_1.100.0-1_all.deb
+Size: 22676976
+MD5sum: fc11d94cf21b133348cd834386e2ad88
+SHA1: eb6f17a2037140adb02df1deb94f05d08f748fd7
+SHA256: a52983b84d5e09f1fea44decd9faa9562dfeddcfdce9da15827ddc337efb69e0
+
+Package: rust-std-wasm32-wasip3
+Architecture: all
+Installed-Size: 98584
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32-wasip3
+Filename: ./rust-std-wasm32-wasip3_1.100.0-1_all.deb
+Size: 22823168
+MD5sum: d9312c0d9801831df1ba2eddcb8cff51
+SHA1: baaeb20a67d1b8be7e97e19dd2ce686651944366
+SHA256: 58405f453d87fa93c8fd2749694afa51e259341f084e8f212310197a8ba33508
+
+Package: rust-std-wasm32v1-none
+Architecture: all
+Installed-Size: 57696
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Description: Component files for target wasm32v1-none
+Filename: ./rust-std-wasm32v1-none_1.100.0-1_all.deb
+Size: 12272176
+MD5sum: cfeed271db1f3e3ad50ba3bffdde8928
+SHA1: 4bfd489b5471577f3b6b53a64d725ee421aab82c
+SHA256: a259da26cceda43ed5a8dff18f4fe342bbae447d4f5ea9fe8c915b776c460669
+
+Package: rust-std-x86-64-linux-android
+Architecture: aarch64
+Installed-Size: 15824
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Component files for target x86_64-linux-android
+Filename: ./rust-std-x86-64-linux-android_1.100.0-1_aarch64.deb
+Size: 3192128
+MD5sum: 2b4fc818d89a64c7039ef18ad1969f41
+SHA1: 2b0658e26e305bf31b5767850a9eb4842e120fd1
+SHA256: 1244cc74edcc42b78e092a5452fe518835b52e3e5f87de89bef6872f7d32d370
+
+Package: rustc-src
+Architecture: all
+Installed-Size: 44208
+Maintainer: @termux
+Version: 1.100.0-1
+Homepage: https://www.rust-lang.org/
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Description: Rust compiler source code files
+Filename: ./rustc-src_1.100.0-1_all.deb
+Size: 5730652
+MD5sum: 9c730efc0003f1b27a34d798eadcd6a9
+SHA1: 7336cc5c6ebcbab5133313eb8caf27a8f118824d
+SHA256: 9984e16bc3067ab052c57df8e1ddb2cb5c9e2f0d44f0dca62d61c81967cd3826
+
+Package: teleport-tsh
+Architecture: aarch64
+Installed-Size: 135616
+Maintainer: @termux
+Version: 18.11.10-1
+Homepage: https://github.com/gravitational/teleport
+Conflicts: etsh
+Description: Secure Access for Developers that doesn't get in the way
+Filename: ./teleport-tsh_18.11.10-1_aarch64.deb
+Size: 23117128
+MD5sum: 8931c02573809673701f6105b6914882
+SHA1: 117b31581d6f6a244199a0452e40f3ac8068c70f
+SHA256: 228cd80077deaf1fe22eaa3e02ba8908813b62769ea48c58aec22dafcd6ee9a7
 
 Package: zrok2
 Architecture: aarch64
