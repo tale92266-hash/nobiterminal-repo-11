@@ -794,6 +794,24 @@ MD5sum: 13e9e6dedcb95f94bbb478339344776e
 SHA1: a519975f6644aef9165801a583984081e741f622
 SHA256: 2090489f40265150d15c127a6ec3181c8efb49c385c0eb690a6ea7be5cd6945d
 
+Package: plocate
+Architecture: aarch64
+Installed-Size: 452
+Maintainer: @termux
+Version: 1.1.25-3
+Homepage: https://plocate.sesse.net/
+Breaks: mlocate (<< 0.26-7)
+Depends: libc++, zstd
+Replaces: mlocate (<< 0.26-7)
+Provides: locate, mlocate
+Suggests: cronie
+Description: A much faster locate
+Filename: ./plocate_1.1.25-3_aarch64.deb
+Size: 99232
+MD5sum: 439a3df4172f64eb001c2ff0d8b73283
+SHA1: 4ae97338a11348dd39d04ce9c97d94718a9eb147
+SHA256: 4a7845da8cbce4a622d3214e65658e1b0b627a9eadf8924b245923a7bc63e604
+
 Package: poppler
 Architecture: aarch64
 Installed-Size: 8032
