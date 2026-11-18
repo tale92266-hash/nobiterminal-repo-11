@@ -638,6 +638,20 @@ MD5sum: 2ec3abdc5d03c63a2b7c31aba67746c7
 SHA1: 96be3b9e1a404270862ef12004a63062f365c189
 SHA256: 399c4a913423b5e75709ace334e70a0bcfd4d8ed94867c32b1c89921447dbb3d
 
+Package: mlocate
+Architecture: all
+Installed-Size: 4
+Maintainer: @termux
+Version: 0.26-8
+Homepage: https://plocate.sesse.net/
+Depends: plocate
+Description: Transitional package for plocate
+Filename: ./mlocate_0.26-8_all.deb
+Size: 688
+MD5sum: 6f6d186c01fc7e39b60551c491a56351
+SHA1: de0b25302db8b72f50403e81fdde88953b6ff261
+SHA256: a8f323062b27450d3088493eaa98a09b320851b79c6b7f0b624b6630781bdf79
+
 Package: mosquitto
 Architecture: aarch64
 Installed-Size: 1128
