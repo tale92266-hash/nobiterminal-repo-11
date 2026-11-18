@@ -39,6 +39,20 @@ MD5sum: 037d2a9361241de0aaa9a2ca30e38c59
 SHA1: e896b6ef37264d99909746fea11b6a693a30f239
 SHA256: af1f7584a514949cf36094918d10debf93b22f24cedc840a4eb25aaeabab1ae7
 
+Package: codon
+Architecture: aarch64
+Installed-Size: 220396
+Maintainer: @termux
+Version: 0.20.7-1
+Homepage: https://github.com/exaloop/codon
+Depends: libc++, libxml2, zlib, zstd
+Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
+Filename: ./codon_0.20.7-1_aarch64.deb
+Size: 37430428
+MD5sum: 2a53855acb9e1d6da246c6d2ed13e201
+SHA1: 435016d9d2579eb94a644f481c9ddeca0cc4c89a
+SHA256: cb6be590e6556b6602d6b1104747e12b765d85b12baf2c696623a0eb53d83a4d
+
 Package: corkscrew
 Architecture: aarch64
 Installed-Size: 80
@@ -136,6 +150,50 @@ Size: 17549468
 MD5sum: 4fc70935e10fde37eea07852c38e5ab1
 SHA1: c1da8c71c09db827e5ace2d451ca5230edc0ff1a
 SHA256: 2b3084ce912c1a58e8a0de14d46c004bb9399b3597083df55281a9c0113161e6
+
+Package: fontconfig-static
+Architecture: aarch64
+Installed-Size: 692
+Maintainer: @termux
+Version: 2.18.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig (= 2.18.4-1)
+Description: Static libraries for fontconfig
+Filename: ./fontconfig-static_2.18.4-1_aarch64.deb
+Size: 136216
+MD5sum: 93b051f7c267331f82c69acedb88d59c
+SHA1: 7c8517f5de77147bf6205d17661209a04b45c023
+SHA256: 73eefe178cd166b2c0f748901b5919d5a47f315c11144fb9ff5bfe9b66ede768
+
+Package: fontconfig-utils
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: @termux
+Version: 2.18.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig (= 2.18.4-1)
+Description: Fontconfig binaries
+Filename: ./fontconfig-utils_2.18.4-1_aarch64.deb
+Size: 14584
+MD5sum: a10188ccb83cd5b9c5bfe6ea7ea55990
+SHA1: 21671b177d6a38a77895f5ab452d8e4d07709a24
+SHA256: 1a28856d7057a6b69d4ebe9262b979e2424d6562e911f9f7bddf1447c50ae380
+
+Package: fontconfig
+Architecture: aarch64
+Installed-Size: 888
+Maintainer: @termux
+Version: 2.18.4-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Breaks: fontconfig-dev
+Depends: freetype, libexpat, ttf-dejavu
+Replaces: fontconfig-dev
+Description: Library for configuring and customizing font access
+Filename: ./fontconfig_2.18.4-1_aarch64.deb
+Size: 141056
+MD5sum: 2e2198034edf7e7633f872c9bdd75512
+SHA1: e19abb8f86fb2857c1af0dd9edd8500fc90176bf
+SHA256: 9ad74701b37cf1417c57de5d3c1ff44a4dba4c6a3352e437a88dc547aadc9085
 
 Package: gh
 Architecture: aarch64
@@ -272,6 +330,20 @@ Size: 3226712
 MD5sum: a83edee641a05d5b51c76ee75b1d2732
 SHA1: ec6708c750dd5c603420e9005ba2e5ea1cbbeeab
 SHA256: 14024e2e97f90708157bbfa8d954db5d6850f006d499ad1e0b7132a122ec8824
+
+Package: libblosc2
+Architecture: aarch64
+Installed-Size: 1088
+Maintainer: @termux
+Version: 3.7.0-1
+Homepage: https://www.blosc.org
+Depends: liblz4, zlib, zstd
+Description: A blocking, shuffling and loss-less compression library
+Filename: ./libblosc2_3.7.0-1_aarch64.deb
+Size: 302700
+MD5sum: 98c9d66b3ac191f1952ec70c5fbf0e2a
+SHA1: 0fe4537b850b83a6bd1cc2ee2039e9c9a80cb67d
+SHA256: bd6ce696a8b44799e0a071cfefa9d0e6a3d1de3e1059af508dd21a5d904cb099
 
 Package: libcue
 Architecture: aarch64
@@ -506,6 +578,21 @@ Size: 302948
 MD5sum: 6b8b59702ae048aea0a2bc5488654404
 SHA1: 0d12164c9bfd066db6975cadb973c5b11101f58f
 SHA256: 7b87586825643d68dead4e9a315e6e7324c43ac3b3f3105896495ab173cbeb0a
+
+Package: mycli
+Architecture: aarch64
+Installed-Size: 2760
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.31.1-1
+Homepage: https://mycli.net
+Depends: python, python-pip, python-cryptography, python-pycryptodomex
+Recommends: fzf
+Description: CLI for MySQL/MariaDB with auto-completion and syntax highlighting
+Filename: ./mycli_2.31.1-1_aarch64.deb
+Size: 327592
+MD5sum: 1b59b19077ac7acf9a57b21f2ea41b38
+SHA1: d8684b64309918c099ccfb176eaf91d5569bf0a7
+SHA256: 188a17725a2c9cdf5e1d6531aedafc126e58acad260963680b748541629bbfa5
 
 Package: npm
 Architecture: all
@@ -832,6 +919,45 @@ MD5sum: 9c730efc0003f1b27a34d798eadcd6a9
 SHA1: 7336cc5c6ebcbab5133313eb8caf27a8f118824d
 SHA256: 9984e16bc3067ab052c57df8e1ddb2cb5c9e2f0d44f0dca62d61c81967cd3826
 
+Package: snowflake-client
+Architecture: aarch64
+Installed-Size: 17924
+Maintainer: @termux
+Version: 2.15.4-1
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Client)
+Filename: ./snowflake-client_2.15.4-1_aarch64.deb
+Size: 4519404
+MD5sum: 436db5ec10dd70c4b44ede5b9afaf4ce
+SHA1: ab8142b123708807140d748a6a1a361a03ff3413
+SHA256: 3b7bef525df9331f05f6f9273468c3f7723d8c85d4f684b17500a67eddeec216
+
+Package: snowflake-proxy
+Architecture: aarch64
+Installed-Size: 17512
+Maintainer: @termux
+Version: 2.15.4-1
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy (Proxy)
+Filename: ./snowflake-proxy_2.15.4-1_aarch64.deb
+Size: 4445608
+MD5sum: 19ad2ee42f2accad8bae3d7bf3584b2e
+SHA1: 37048a55e735aabb487c6cbfbda24194d4a1664e
+SHA256: 2ba30f13d457f098fa5b096634483433c6f9e591f15ce642c085d4897a168416
+
+Package: snowflake
+Architecture: aarch64
+Installed-Size: 40
+Maintainer: @termux
+Version: 2.15.4-1
+Homepage: https://snowflake.torproject.org/
+Description: Pluggable Transport using WebRTC, inspired by Flashproxy
+Filename: ./snowflake_2.15.4-1_aarch64.deb
+Size: 1744
+MD5sum: 56bdc95f26f8ce351d5a2900176c2168
+SHA1: d5ed1518b81e977f41ed6863e2de4c95a1d97853
+SHA256: 6d6e88c75281c333a0025ecea2be77e7a62353557b3fa81517c1d60093971b76
+
 Package: teleport-tsh
 Architecture: aarch64
 Installed-Size: 135616
@@ -885,6 +1011,19 @@ Size: 9577196
 MD5sum: 310cfba08c94860222058ffb2ea9b77d
 SHA1: ddb12979f8e89386951636919deb22bcd3683d6a
 SHA256: 25e5a40a87703b39abcb7c0c83aeb08f19163391cfc0b937d2f0fd242bc3ab2e
+
+Package: ty
+Architecture: aarch64
+Installed-Size: 29748
+Maintainer: @termux
+Version: 0.0.106-1
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+Filename: ./ty_0.0.106-1_aarch64.deb
+Size: 9596444
+MD5sum: c659016b6bb71faf657b4b27e1cd4d9e
+SHA1: e7070c48458fe9dfa9bc278dd07d4b7a65af4af5
+SHA256: dc95b4fe999090f66166f129d6594fd8f76471422ea09aa0bacd68b30f958e14
 
 Package: uv
 Architecture: aarch64
