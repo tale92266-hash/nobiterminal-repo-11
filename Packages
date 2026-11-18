@@ -39,6 +39,20 @@ MD5sum: 037d2a9361241de0aaa9a2ca30e38c59
 SHA1: e896b6ef37264d99909746fea11b6a693a30f239
 SHA256: af1f7584a514949cf36094918d10debf93b22f24cedc840a4eb25aaeabab1ae7
 
+Package: corkscrew
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 3.1-1
+Homepage: https://github.com/patpadgett/corkscrew
+Depends: openssh
+Description: A tool for tunneling SSH through HTTP proxies
+Filename: ./corkscrew_3.1-1_aarch64.deb
+Size: 12828
+MD5sum: 6a1a186fa1c7e680b352fbda0a7f8e25
+SHA1: a85acbdc3ba0e126b8f8f5ba33bf495705716814
+SHA256: 0ab211a9796473c3bfbc1d691ec85da61447c4a301605c0f8b982df66c766688
+
 Package: docker-compose
 Architecture: aarch64
 Installed-Size: 31308
@@ -80,6 +94,33 @@ MD5sum: 4b03736d1a4055535b7472248e1aed3f
 SHA1: 4b38f808cf58d072132ff99a3846fc90cb62a691
 SHA256: 0ddb76276a8015104f77efa628d6900cfc7f3abcf3df0f808f3c1f209b1e556a
 
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 80244
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.12-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.12-1_aarch64.deb
+Size: 17549468
+MD5sum: 4fc70935e10fde37eea07852c38e5ab1
+SHA1: c1da8c71c09db827e5ace2d451ca5230edc0ff1a
+SHA256: 2b3084ce912c1a58e8a0de14d46c004bb9399b3597083df55281a9c0113161e6
+
+Package: gh
+Architecture: aarch64
+Installed-Size: 42428
+Maintainer: Krishna kanhaiya @kcubeterm
+Version: 2.105.0-1
+Homepage: https://cli.github.com/
+Recommends: openssh
+Description: GitHub’s official command line tool
+Filename: ./gh_2.105.0-1_aarch64.deb
+Size: 9952772
+MD5sum: c5bb9465861606a596f8d9c05ff9d437
+SHA1: 097c3d4a4ec1b14e98f41289c43595c7fd95378e
+SHA256: 4fd8a1e37e79a212209435320be1717852945177eb598f25b25e9100c05694c8
+
 Package: git-town
 Architecture: aarch64
 Installed-Size: 25968
@@ -105,6 +146,19 @@ Size: 13201932
 MD5sum: d6aa7bfc060404f8ee093a28d8c584ba
 SHA1: 40ab7f4a89c57315a954c362ab1e8adab2251679
 SHA256: e09ae1c72fde373fe5b0cf108638850079db13d5a0c359ca4ebb4c6080cf8629
+
+Package: goimports
+Architecture: aarch64
+Installed-Size: 7368
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 0.53.0-1
+Homepage: https://pkg.go.dev/golang.org/x/tools/cmd/goimports
+Description: Updates Go import lines, adding missing ones and removing unreferenced ones
+Filename: ./goimports_0.53.0-1_aarch64.deb
+Size: 1795972
+MD5sum: f0df03da94bc365e149fe2eece62a605
+SHA1: f7cc6cc282c63cd1e63c87f99978b0daaa599f41
+SHA256: a89042f9363e2f4f4a634a381d973ea491919866f700ac5473e28b52a9bcd41d
 
 Package: golang-doc
 Architecture: aarch64
@@ -134,6 +188,46 @@ Size: 38178736
 MD5sum: 2e0b62c97843daa7c6cf66cf34b8dce5
 SHA1: f31c2d1eb0eb539f17d80cced93b0d6a740005aa
 SHA256: 331beb2ebe7d516e52c93ad7c04fbe86b1ff7116a23dcab70d64085dad3d50ea
+
+Package: govulncheck
+Architecture: aarch64
+Installed-Size: 10872
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.10.0-1
+Homepage: https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck
+Description: Reports known vulnerabilities affecting Go code
+Filename: ./govulncheck_1.10.0-1_aarch64.deb
+Size: 3096032
+MD5sum: 79b99ac841e2f650a1df93bd2740f435
+SHA1: df370b4dbf93daa3e78f7a3b79d78f47fd0d3fa8
+SHA256: 121c43b3e324542a361eeb723fc7585c8150c48c9c77f7a10e9bab1e4bb378f2
+
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 24784
+Maintainer: @termux
+Version: 4.26.287-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 4.26.287-1)
+Description: Static libraries for inotify-tools
+Filename: ./inotify-tools-static_4.26.287-1_aarch64.deb
+Size: 4302700
+MD5sum: b5deedad888bbeef79b836aa02a07e9a
+SHA1: b56957efe72ac38daedd7118361639dc5624a190
+SHA256: 4702872f3e9e3a445f3f7875be38ad4487eb826f8c0b00e57afeafc3b9cbec20
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 1272
+Maintainer: @termux
+Version: 4.26.287-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Description: Programs providing a simple interface to inotify
+Filename: ./inotify-tools_4.26.287-1_aarch64.deb
+Size: 292144
+MD5sum: 32d66980c5453c8c865c085fb64e21d8
+SHA1: 2ee9346ba0694b614c24ecbbcdf673bed1d596b9
+SHA256: 0b0ab99c5bae6fc3b949b81814203db8e6998fe08dd0f0e17fb3bba83609e3f3
 
 Package: jackett
 Architecture: aarch64
@@ -206,6 +300,22 @@ MD5sum: 466b78dae4ddaedde69b5cc90f165ad6
 SHA1: 77928b3cc06ac6fcecd1b2c5b3795a7e24267470
 SHA256: 438b3b043d4f6decf41aa3acf75c25de9371f00759565f30a4be494cf7f67439
 
+Package: libmosquitto
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: @termux
+Version: 2.1.4-1
+Homepage: https://mosquitto.org/
+Breaks: libmosquitto-dev
+Depends: c-ares, cjson, libc++, libsqlite, openssl
+Replaces: libmosquitto-dev
+Description: MQTT library
+Filename: ./libmosquitto_2.1.4-1_aarch64.deb
+Size: 135444
+MD5sum: 4d66a00c6eaf72040a654fea2072a86b
+SHA1: 0248d883620cf076f5c896d0ea75d25a1d5fbd23
+SHA256: e9b284d016a63befbad42ab887d9dc60dab75d6b9281493977bdb5ba3e13558a
+
 Package: libsigsegv-static
 Architecture: aarch64
 Installed-Size: 52
@@ -262,6 +372,35 @@ MD5sum: fc88de6bb5a0152ef0aaf66fe8a0e756
 SHA1: 385af9fc09b5ef72d17b0ad590b6989d26e99a20
 SHA256: 5027f543cfe2ad71e3ed9ddb597c213825cc6300d74d3df3a89d888ee2ac32ac
 
+Package: mosquitto
+Architecture: aarch64
+Installed-Size: 1128
+Maintainer: @termux
+Version: 2.1.4-1
+Homepage: https://mosquitto.org/
+Depends: libwebsockets, libmosquitto (= 2.1.4-1)
+Description: MQTT version 3.1/3.1.1 compatible message broker and clients
+Filename: ./mosquitto_2.1.4-1_aarch64.deb
+Size: 302948
+MD5sum: 6b8b59702ae048aea0a2bc5488654404
+SHA1: 0d12164c9bfd066db6975cadb973c5b11101f58f
+SHA256: 7b87586825643d68dead4e9a315e6e7324c43ac3b3f3105896495ab173cbeb0a
+
+Package: npm
+Architecture: all
+Installed-Size: 18504
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 12.2.3-1
+Homepage: https://docs.npmjs.com/cli/
+Depends: nodejs | nodejs-lts
+Conflicts: nodejs (<= 25.3.0), nodejs-lts (<= 24.13.0)
+Description: The package manager for JavaScript
+Filename: ./npm_12.2.3-1_all.deb
+Size: 2078592
+MD5sum: 84fff9e7082a7799d7417757b68bc0c0
+SHA1: bac5abcd485d0ff55c192b0a8f0577b184531c0c
+SHA256: c7c2568e7ee0846efebcde74ec173dd0cecd4c5b3821e8294628445b5a0b03a4
+
 Package: oci-cli
 Architecture: aarch64
 Installed-Size: 68784
@@ -289,6 +428,34 @@ MD5sum: e6eee195069ac1b3f09eaa45e732d403
 SHA1: fed9df4e3504a327161362bd45a00bb511ef83a0
 SHA256: f699b97155314b3b83e38df6835d8b4b1d95e62fbc3b3b252c96b1d858779dbb
 
+Package: openjdk-17-x
+Architecture: aarch64
+Installed-Size: 14704
+Maintainer: @termux
+Version: 17.0.21.1-1
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-17 (= 17.0.21.1-1)
+Description: Portion of openjdk-17 requiring X11 functionality
+Filename: ./openjdk-17-x_17.0.21.1-1_aarch64.deb
+Size: 12560704
+MD5sum: 623e7fc5929db3818de5fca9f17f9d3f
+SHA1: ef4ace6e3b48e2886737ee8d7510c4946e0ba983
+SHA256: c5c298bce00b136edad1af1ed898415d3cb4bbc6490ceddb122f6b535ca0a280
+
+Package: openjdk-21-x
+Architecture: aarch64
+Installed-Size: 14716
+Maintainer: @termux
+Version: 21.0.13.1-1
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-21 (= 21.0.13.1-1)
+Description: Portion of openjdk-21 requiring X11 functionality
+Filename: ./openjdk-21-x_21.0.13.1-1_aarch64.deb
+Size: 12572972
+MD5sum: c422becd635fa857c7bb856e431c9391
+SHA1: d87ee2698f910b8786778634959ec27bf2e1d1e1
+SHA256: 67b2b77f460f10cfb7b20f799b662a0627c5df351011783cb7c0932a19538a81
+
 Package: poppler
 Architecture: aarch64
 Installed-Size: 8032
@@ -305,6 +472,20 @@ MD5sum: 234f350329d830bfb9ddd4459621cb05
 SHA1: 8bbb0a71ba210268b7d8223fe5f1c9e6959d6e55
 SHA256: 7c5dad67a4e0a72eb8c7fcc3cc733b7e3f0145da9f441f44619b8cf81ce47186
 
+Package: python-grpcio
+Architecture: aarch64
+Installed-Size: 21104
+Maintainer: @termux
+Version: 1.85.3-1
+Homepage: https://grpc.io/
+Depends: abseil-cpp, c-ares, ca-certificates, libc++, libre2, openssl, python, python-pip, zlib
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+Filename: ./python-grpcio_1.85.3-1_aarch64.deb
+Size: 3950112
+MD5sum: b48db575194a6ab993989d494f824ab7
+SHA1: 1b10ac7059b3eda72f4716260fea0915809fad2b
+SHA256: 85a6dacc8062d68ba42f1f47ba9f5f1b680b4551c3d28c3f12a574a85bf6670e
+
 Package: rabbitmq-server
 Architecture: all
 Installed-Size: 67228
@@ -318,6 +499,19 @@ Size: 31684408
 MD5sum: d260e3c068dca3bc4f6e945d7c579696
 SHA1: e88375648e620334164678f1e6e525c983ca4aae
 SHA256: d2034f6b5a158e09dc1a6b434c748686b780a42457aaf07106630cfbec8c82ad
+
+Package: railway-cli
+Architecture: aarch64
+Installed-Size: 16644
+Maintainer: @termux
+Version: 5.75.0-1
+Homepage: https://railway.com/
+Description: This is the command line interface for Railway
+Filename: ./railway-cli_5.75.0-1_aarch64.deb
+Size: 6608260
+MD5sum: 79307b4d1e43c295122bdeb8adcb102f
+SHA1: 3ac74f0788ea9ea2df30f298c0bda4d92232db4e
+SHA256: f530b3b817e8571ac03c9dcd36995e64d41a0a4a94637efba3083a39509788ca
 
 Package: rust-docs
 Architecture: all
