@@ -667,6 +667,20 @@ MD5sum: 1b59b19077ac7acf9a57b21f2ea41b38
 SHA1: d8684b64309918c099ccfb176eaf91d5569bf0a7
 SHA256: 188a17725a2c9cdf5e1d6531aedafc126e58acad260963680b748541629bbfa5
 
+Package: nginx
+Architecture: aarch64
+Installed-Size: 1628
+Maintainer: @termux
+Version: 1.31.9-1
+Homepage: https://www.nginx.org
+Depends: libandroid-glob, libcrypt, pcre2, openssl, zlib
+Description: Lightweight HTTP server
+Filename: ./nginx_1.31.9-1_aarch64.deb
+Size: 451848
+MD5sum: a579ed87667d2db0d00941ca01024b30
+SHA1: b2344651f3d536b66d1b835aae3f57801d69d375
+SHA256: 0c81efb637547cd44bda6f48a09ed60ed8da1700ec6170f6202d5613e18e7b20
+
 Package: npm
 Architecture: all
 Installed-Size: 18504
@@ -781,6 +795,19 @@ Size: 1326116
 MD5sum: 234f350329d830bfb9ddd4459621cb05
 SHA1: 8bbb0a71ba210268b7d8223fe5f1c9e6959d6e55
 SHA256: 7c5dad67a4e0a72eb8c7fcc3cc733b7e3f0145da9f441f44619b8cf81ce47186
+
+Package: pueue
+Architecture: aarch64
+Installed-Size: 12364
+Maintainer: @stevenxxiu
+Version: 4.0.5-1
+Homepage: https://github.com/Nukesor/pueue
+Description: A command-line task management tool for sequential and parallel execution of long-running tasks
+Filename: ./pueue_4.0.5-1_aarch64.deb
+Size: 2847876
+MD5sum: b71ea4d9173288b89ad4d5053ef414f8
+SHA1: 9484ce608d617e8893a55d90c7707c528acf0339
+SHA256: 3769040793b2498be571c646ba57a86cdab4a7ffd837a0c6f33881996f825d4c
 
 Package: python-grpcio
 Architecture: aarch64
