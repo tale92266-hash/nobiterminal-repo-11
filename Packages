@@ -1,3 +1,29 @@
+Package: astyle
+Architecture: aarch64
+Installed-Size: 1056
+Maintainer: @termux
+Version: 3.6.26-1
+Homepage: https://astyle.sourceforge.net/
+Description: Source code formatter for C-like programming languages
+Filename: ./astyle_3.6.26-1_aarch64.deb
+Size: 218820
+MD5sum: f079424b5737030a83590e77716148eb
+SHA1: 41ad0496b57bc22c2daec26e32a638d8336376e6
+SHA256: 8a33fcc3b43b5f71aa0751a85f1bf97f62d2a0a41d9df2d1de2ddf4012936a5d
+
+Package: cloudflared
+Architecture: aarch64
+Installed-Size: 28652
+Maintainer: @termux
+Version: 2026.11.1-1
+Homepage: https://github.com/cloudflare/cloudflared
+Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
+Filename: ./cloudflared_2026.11.1-1_aarch64.deb
+Size: 6752980
+MD5sum: 4e63b2f1e4740661d47ed28869faf4ec
+SHA1: c8bb501f2513f97730fa8e5f1e97ab8320d6b1f9
+SHA256: d45b1dc4e3ee8d921f371806080ea908acefe15bc0b93d03ed569a7c279d3a53
+
 Package: clvk
 Architecture: aarch64
 Installed-Size: 91688
@@ -26,6 +52,59 @@ Size: 7300556
 MD5sum: 90395c20ec856929076e1b3c7c2feba3
 SHA1: 26d3ca6c02084ac406918816a6263c32c65b6c11
 SHA256: 67d478d07b681b66b098e90b0862c1b1d627760372e9003be3251d1d102c6801
+
+Package: docker-compose
+Architecture: aarch64
+Installed-Size: 31652
+Maintainer: @termux
+Version: 5.8.0-1
+Homepage: https://github.com/docker/compose
+Depends: docker-cli
+Description: Compose is a tool for defining and running multi-container Docker applications.
+Filename: ./docker-compose_5.8.0-1_aarch64.deb
+Size: 7368252
+MD5sum: dcaca3a9d13b83d9dfb76802b7dc3cb0
+SHA1: 8e366575d193fd7bb06fe86f129af905344f44e1
+SHA256: 82cf43ee8e874d6a2247c8b21a1fcc620aa7d9548a5781e197805d3b5c001e7e
+
+Package: doctl
+Architecture: aarch64
+Installed-Size: 38904
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 2.6.0-1
+Homepage: https://github.com/digitalocean/doctl
+Description: The official command line interface for the DigitalOcean API
+Filename: ./doctl_2.6.0-1_aarch64.deb
+Size: 8950552
+MD5sum: 4b03736d1a4055535b7472248e1aed3f
+SHA1: 4b38f808cf58d072132ff99a3846fc90cb62a691
+SHA256: 0ddb76276a8015104f77efa628d6900cfc7f3abcf3df0f808f3c1f209b1e556a
+
+Package: git-town
+Architecture: aarch64
+Installed-Size: 25968
+Maintainer: @termux
+Version: 24.2.0-1
+Homepage: https://www.git-town.com
+Description: Git branches made easy
+Filename: ./git-town_24.2.0-1_aarch64.deb
+Size: 5123612
+MD5sum: e5090e6f6df76f52d8207ade6f28dbd8
+SHA1: e796155d6f40a4816938e90e6df7da0ca94d8781
+SHA256: c276cb5375aaa1dcd8c7c726aa4e0c385d7dcbbc8c18ff56180172884b6cf462
+
+Package: glab-cli
+Architecture: aarch64
+Installed-Size: 55744
+Maintainer: @termux
+Version: 1.131.0-1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+Filename: ./glab-cli_1.131.0-1_aarch64.deb
+Size: 13201932
+MD5sum: d6aa7bfc060404f8ee093a28d8c584ba
+SHA1: 40ab7f4a89c57315a954c362ab1e8adab2251679
+SHA256: e09ae1c72fde373fe5b0cf108638850079db13d5a0c359ca4ebb4c6080cf8629
 
 Package: golang-doc
 Architecture: aarch64
@@ -70,6 +149,19 @@ MD5sum: a83edee641a05d5b51c76ee75b1d2732
 SHA1: ec6708c750dd5c603420e9005ba2e5ea1cbbeeab
 SHA256: 14024e2e97f90708157bbfa8d954db5d6850f006d499ad1e0b7132a122ec8824
 
+Package: libdav1d
+Architecture: aarch64
+Installed-Size: 840
+Maintainer: @termux
+Version: 1.5.5-1
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
+Filename: ./libdav1d_1.5.5-1_aarch64.deb
+Size: 266764
+MD5sum: efc599f0d8956029386ff22df8116120
+SHA1: 59cceb09f5add8c824d3ff67e3bc1e40edb2333f
+SHA256: 05fdef0a2cea5cceffd13a20edd8ba8a49f7a9edd2b812eb4a836eb3db74fc52
+
 Package: libgnt
 Architecture: aarch64
 Installed-Size: 524
@@ -83,6 +175,36 @@ Size: 95180
 MD5sum: 251b22beb19a4ac29c99a0d941cf4793
 SHA1: 262ecf74a734c28a2e88f53fa594cad0155d47a2
 SHA256: 96dc6dcb4bc85ca11479434550bc31d7ed87c01adbc1530e1b6cf6b45da22dac
+
+Package: libksba-static
+Architecture: aarch64
+Installed-Size: 468
+Maintainer: @termux
+Version: 1.9.0-1
+Homepage: https://gnupg.org/related_software/libksba/
+Depends: libksba (= 1.9.0-1)
+Description: Static libraries for libksba
+Filename: ./libksba-static_1.9.0-1_aarch64.deb
+Size: 101944
+MD5sum: 7f2c3a1e7e53f1a224091a1ae664c49d
+SHA1: fbc1e6cd5ab4912b305f1701298baf2c9ad056c1
+SHA256: 4c1893310290a87e79644d61bdb205e00d029f608b89344ccedf29736829df69
+
+Package: libksba
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 1.9.0-1
+Homepage: https://gnupg.org/related_software/libksba/
+Breaks: libksba-dev
+Depends: libgpg-error
+Replaces: libksba-dev
+Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
+Filename: ./libksba_1.9.0-1_aarch64.deb
+Size: 115400
+MD5sum: 466b78dae4ddaedde69b5cc90f165ad6
+SHA1: 77928b3cc06ac6fcecd1b2c5b3795a7e24267470
+SHA256: 438b3b043d4f6decf41aa3acf75c25de9371f00759565f30a4be494cf7f67439
 
 Package: libsigsegv-static
 Architecture: aarch64
@@ -113,6 +235,20 @@ MD5sum: 6172884809b8af0257a40e785bbd4e0b
 SHA1: 282459ee4930294a1a1180fbf4af9cfa8d14b86f
 SHA256: 4a66b785304b7f6b5e224cfde6a5331d62fd7ad89c7ffda3d7923c047a25b0ba
 
+Package: libvips
+Architecture: aarch64
+Installed-Size: 3456
+Maintainer: @termux
+Version: 8.18.7-5
+Homepage: https://libvips.github.io/libvips/
+Depends: cfitsio, cgif, fftw, fontconfig, glib, highway, imagemagick, imath, libc++, libcairo, libexif, libexpat, libheif, libimagequant, libjpeg-turbo, libjxl, libpng, librsvg, libtiff, libwebp, littlecms, openexr, openjpeg, pango, poppler, zlib
+Description: A fast image processing library with low memory needs
+Filename: ./libvips_8.18.7-5_aarch64.deb
+Size: 1098680
+MD5sum: 875c3d8868a7c2680ac4248453da7eae
+SHA1: 2289738e3be9bcba91702e399caeebb7e911f8ea
+SHA256: 99eedb75e9506afc5cd4b20686200bc06fe9c5afbe32aecfcc61f335bd5a0ffa
+
 Package: mailpit
 Architecture: aarch64
 Installed-Size: 27044
@@ -139,6 +275,35 @@ Size: 2113808
 MD5sum: a41e05c5f53d729d86a424296ca8b560
 SHA1: 63e82d059e524d4fc68253fd54ed679980cd357b
 SHA256: 7ffa7550f91790bf00e17aab9ffad3d00dc10a2437decce6e591cfe2fd5a1845
+
+Package: oh-my-posh
+Architecture: aarch64
+Installed-Size: 15128
+Maintainer: @termux
+Version: 33.0.0-1
+Homepage: https://ohmyposh.dev
+Description: A prompt theme engine for any shell.
+Filename: ./oh-my-posh_33.0.0-1_aarch64.deb
+Size: 3840040
+MD5sum: e6eee195069ac1b3f09eaa45e732d403
+SHA1: fed9df4e3504a327161362bd45a00bb511ef83a0
+SHA256: f699b97155314b3b83e38df6835d8b4b1d95e62fbc3b3b252c96b1d858779dbb
+
+Package: poppler
+Architecture: aarch64
+Installed-Size: 8032
+Maintainer: @termux
+Version: 26.11.0-1
+Homepage: https://poppler.freedesktop.org/
+Breaks: poppler-dev, poppler-qt (<< 26.11.0)
+Depends: fontconfig, freetype, glib, gpgme, gpgmepp, harfbuzz, libc++, libcairo, libcurl, libiconv, libjpeg-turbo, libnspr, libnss, libpng, libtiff, littlecms, openjpeg, zlib
+Replaces: poppler-dev, poppler-qt (<< 22.04.0-3)
+Description: PDF rendering library
+Filename: ./poppler_26.11.0-1_aarch64.deb
+Size: 1326116
+MD5sum: 234f350329d830bfb9ddd4459621cb05
+SHA1: 8bbb0a71ba210268b7d8223fe5f1c9e6959d6e55
+SHA256: 7c5dad67a4e0a72eb8c7fcc3cc733b7e3f0145da9f441f44619b8cf81ce47186
 
 Package: rabbitmq-server
 Architecture: all
@@ -322,6 +487,45 @@ Size: 23117128
 MD5sum: 8931c02573809673701f6105b6914882
 SHA1: 117b31581d6f6a244199a0452e40f3ac8068c70f
 SHA256: 228cd80077deaf1fe22eaa3e02ba8908813b62769ea48c58aec22dafcd6ee9a7
+
+Package: topgrade
+Architecture: aarch64
+Installed-Size: 7300
+Maintainer: @termux
+Version: 17.17.0-1
+Homepage: https://github.com/topgrade-rs/topgrade/
+Description: Upgrade all the things
+Filename: ./topgrade_17.17.0-1_aarch64.deb
+Size: 2036028
+MD5sum: 5e48891d648d2e93032afd7f41d56de0
+SHA1: a2f78fa33bc540b4abf47179d72f1438ad6a7d39
+SHA256: 883b9ff26aaad818f73131d9870297ed490f636b80b01ca44abc8e42412a3f26
+
+Package: ty
+Architecture: aarch64
+Installed-Size: 29708
+Maintainer: @termux
+Version: 0.0.105-1
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+Filename: ./ty_0.0.105-1_aarch64.deb
+Size: 9577196
+MD5sum: 310cfba08c94860222058ffb2ea9b77d
+SHA1: ddb12979f8e89386951636919deb22bcd3683d6a
+SHA256: 25e5a40a87703b39abcb7c0c83aeb08f19163391cfc0b937d2f0fd242bc3ab2e
+
+Package: uv
+Architecture: aarch64
+Installed-Size: 34460
+Maintainer: @termux
+Version: 0.13.9-1
+Homepage: https://docs.astral.sh/uv/
+Description: An extremely fast Python package installer and resolver, written in Rust.
+Filename: ./uv_0.13.9-1_aarch64.deb
+Size: 10560648
+MD5sum: 1e2bbe2d15b181b84104e9ef505d9b60
+SHA1: 3781ab2d245e520f9c8e0c099144de13a0188303
+SHA256: 19adb67fbaa67666cb59ecd25091183848d30ce0e264ab05f69a3ad4590ee60b
 
 Package: zrok2
 Architecture: aarch64
