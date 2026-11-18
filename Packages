@@ -11,6 +11,20 @@ MD5sum: f079424b5737030a83590e77716148eb
 SHA1: 41ad0496b57bc22c2daec26e32a638d8336376e6
 SHA256: 8a33fcc3b43b5f71aa0751a85f1bf97f62d2a0a41d9df2d1de2ddf4012936a5d
 
+Package: byobu
+Architecture: all
+Installed-Size: 2204
+Maintainer: @termux
+Version: 7.24-1
+Homepage: https://www.byobu.org/
+Depends: gawk, tmux
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
+Filename: ./byobu_7.24-1_all.deb
+Size: 749468
+MD5sum: ecd9bd2cc9e378d1bffd12274051ac18
+SHA1: 4246afd8c27c2f2355be6b353fa1edaf0aa27d8e
+SHA256: 38ae63f8722654a71e396d4482c3ecbbaa32693f42b6b140f4b31fa7fb100830
+
 Package: cloudflared
 Architecture: aarch64
 Installed-Size: 28652
@@ -67,6 +81,35 @@ MD5sum: 6a1a186fa1c7e680b352fbda0a7f8e25
 SHA1: a85acbdc3ba0e126b8f8f5ba33bf495705716814
 SHA256: 0ab211a9796473c3bfbc1d691ec85da61447c4a301605c0f8b982df66c766688
 
+Package: dnscontrol
+Architecture: aarch64
+Installed-Size: 159316
+Maintainer: Izumi Sena Sora <info@unordinary.eu.org>
+Version: 5.10.0-1
+Homepage: https://dnscontrol.org/
+Description: Infrastructure as code for DNS!
+Filename: ./dnscontrol_5.10.0-1_aarch64.deb
+Size: 21569432
+MD5sum: 725c9c7db10f3f2da7e9ee3ad6b7d1b0
+SHA1: 5f1edc76ceff00165f9af19767580e49eab87505
+SHA256: a2470b04b6a2fe61d93a71c46562a7c29ff3ca56479cbbb51f4dc27dc2c37d17
+
+Package: dnsutils
+Architecture: aarch64
+Installed-Size: 6892
+Maintainer: @termux
+Version: 9.20.31-1
+Homepage: https://www.isc.org/bind/
+Breaks: dnsutils-dev
+Depends: cmocka, json-c, krb5, libandroid-execinfo, libandroid-glob, libcap, libnghttp2, liburcu, libuv, libxml2, openssl, readline, resolv-conf, zlib
+Replaces: dnsutils-dev
+Description: Clients provided with BIND
+Filename: ./dnsutils_9.20.31-1_aarch64.deb
+Size: 1715708
+MD5sum: b573a1facba1b706f2a4cc4b7ba9fec8
+SHA1: aa4f7f4e333fa19929490ab5898928a9a27393c5
+SHA256: e0a51df103ba273c6a1cef3b397eb6b55ecf33f998f19253e2f2f7ab913b730d
+
 Package: docker-compose
 Architecture: aarch64
 Installed-Size: 31308
@@ -122,6 +165,20 @@ MD5sum: 190ac41a15fe892a983858ec5c60b418
 SHA1: d5c3dea81222c1a2294c3550c9416634d560aa59
 SHA256: 23c6820b677c4392da46772197da561669814aadbe22f32f58926889dd652321
 
+Package: flex-static
+Architecture: aarch64
+Installed-Size: 36
+Maintainer: @termux
+Version: 2.7.1-1
+Homepage: https://github.com/westes/flex
+Depends: flex (= 2.7.1-1)
+Description: Static libraries for flex
+Filename: ./flex-static_2.7.1-1_aarch64.deb
+Size: 1912
+MD5sum: 3c5dfd5212429f56ff8f19bed7fe28f2
+SHA1: 85e86813de24bf7d9db20e82a388987532913271
+SHA256: a432f7153e85475d218f520fac24095509644d9933341885014fd5cda84b87b1
+
 Package: flex
 Architecture: aarch64
 Installed-Size: 1272
@@ -137,6 +194,22 @@ Size: 244496
 MD5sum: c59df147675e912d20f5ef75c971c26d
 SHA1: d7bc52cde0eb7b68e782191e68c7daf5da5b5d9c
 SHA256: f22bf4db3040b6d82e9511b1b084703889f6709d01405c51fca2f1ba8d9bda3d
+
+Package: flex
+Architecture: aarch64
+Installed-Size: 1276
+Maintainer: @termux
+Version: 2.7.1-1
+Homepage: https://github.com/westes/flex
+Depends: m4
+Conflicts: flex-dev
+Replaces: flex-dev
+Description: Fast lexical analyser generator
+Filename: ./flex_2.7.1-1_aarch64.deb
+Size: 243820
+MD5sum: c17529e8ba2601596d645bd6cdceaf70
+SHA1: 45d963e052662ae44f5eb757b8ea8d52127ff94e
+SHA256: 7bfb5170b37a1f65ac29ea037c1ec6d654043118aac2cd5323525fc9df06d2dc
 
 Package: flyctl
 Architecture: aarch64
