@@ -53,6 +53,19 @@ MD5sum: f079424b5737030a83590e77716148eb
 SHA1: 41ad0496b57bc22c2daec26e32a638d8336376e6
 SHA256: 8a33fcc3b43b5f71aa0751a85f1bf97f62d2a0a41d9df2d1de2ddf4012936a5d
 
+Package: azure-dev-cli
+Architecture: aarch64
+Installed-Size: 61748
+Maintainer: Gouranga Das Samrat <gouranga.das.khulna@gmail.com>
+Version: 1.38.0-1
+Homepage: https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/
+Description: Developer-centric CLI for creating, provisioning and deploying Azure applications (azd)
+Filename: ./azure-dev-cli_1.38.0-1_aarch64.deb
+Size: 12712700
+MD5sum: 9335e2a45f4a32f92a1e40525d06c4c9
+SHA1: 16ddd9d6f5701113e3d387b0bafa48d495a80337
+SHA256: f0be135fe9b5fbac429ebdfe162e2b99d5988b5f325489ae4c214915d9ea2257
+
 Package: byobu
 Architecture: all
 Installed-Size: 2204
@@ -66,6 +79,36 @@ Size: 749468
 MD5sum: ecd9bd2cc9e378d1bffd12274051ac18
 SHA1: 4246afd8c27c2f2355be6b353fa1edaf0aa27d8e
 SHA256: 38ae63f8722654a71e396d4482c3ecbbaa32693f42b6b140f4b31fa7fb100830
+
+Package: clamav-static
+Architecture: aarch64
+Installed-Size: 55212
+Maintainer: @termux
+Version: 1.5.5-1
+Homepage: https://github.com/Cisco-Talos/clamav
+Depends: clamav (= 1.5.5-1)
+Description: Static libraries for clamav
+Filename: ./clamav-static_1.5.5-1_aarch64.deb
+Size: 8607312
+MD5sum: 550db2f924ecb56423ef6905d78b3fb9
+SHA1: 3e7f19c54f5aaf3c4c912b033bb4f18372bae14a
+SHA256: 42e7bb1c1a667ee2409cdbeef2d3dfeaa3697f3377ae179974aabfdf928bf4ea
+
+Package: clamav
+Architecture: aarch64
+Installed-Size: 27924
+Maintainer: @termux
+Version: 1.5.5-1
+Homepage: https://github.com/Cisco-Talos/clamav
+Breaks: clamav-dev
+Depends: json-c, libandroid-support, libbz2, libc++, libcurl, libiconv, libxml2, ncurses, openssl, pcre2, zlib
+Replaces: clamav-dev
+Description: Anti-virus toolkit for Unix
+Filename: ./clamav_1.5.5-1_aarch64.deb
+Size: 7343184
+MD5sum: f9849206cb2b8481d9cf2b8dcfd6dbd3
+SHA1: cf4ae50c9790e9ab78b64d89aa260ba854faa629
+SHA256: 81c2ffac0a1115cfb25ce7cadfb700fb855e5a96ad642c54936ad0c29b252a44
 
 Package: cloudflared
 Architecture: aarch64
@@ -320,6 +363,20 @@ MD5sum: 37564b5a1eb5b65dd8178fbbcc552105
 SHA1: e8ac4d3150d9fa4248be0d8ef25d990428e7d498
 SHA256: 280df4c78bd5ad2e49f84f80aabb32b1ce13624643dd648400dac3c90dd40000
 
+Package: exfatprogs
+Architecture: aarch64
+Installed-Size: 580
+Maintainer: @termux
+Version: 1.4.5-1
+Homepage: https://github.com/exfatprogs/exfatprogs
+Depends: libblkid
+Description: exFAT filesystem userspace utilities
+Filename: ./exfatprogs_1.4.5-1_aarch64.deb
+Size: 93716
+MD5sum: e037edb42db6b9da7d5fc2506e0276c4
+SHA1: 638cea3afde10631816b5ca0499103a9159ed5bf
+SHA256: 2f480ea25697751bcee240bbb3a64dd98ffa6913dd3524af822b9300800f5201
+
 Package: flex-static
 Architecture: aarch64
 Installed-Size: 36
@@ -393,6 +450,19 @@ MD5sum: 4fc70935e10fde37eea07852c38e5ab1
 SHA1: c1da8c71c09db827e5ace2d451ca5230edc0ff1a
 SHA256: 2b3084ce912c1a58e8a0de14d46c004bb9399b3597083df55281a9c0113161e6
 
+Package: flyctl
+Architecture: aarch64
+Installed-Size: 80280
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 0.5.13-1
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
+Filename: ./flyctl_0.5.13-1_aarch64.deb
+Size: 17565588
+MD5sum: b2b79c5ee3ed340a42d3e36d23fb16ab
+SHA1: e215513efca889ff1d67c43935482622fbca131d
+SHA256: fd744a0cd4fb5270a5d56b467f8ee1ee7e4ea187e6a46f309ebd0371f40f8187
+
 Package: fontconfig-static
 Architecture: aarch64
 Installed-Size: 692
@@ -436,6 +506,20 @@ Size: 141056
 MD5sum: 2e2198034edf7e7633f872c9bdd75512
 SHA1: e19abb8f86fb2857c1af0dd9edd8500fc90176bf
 SHA256: 9ad74701b37cf1417c57de5d3c1ff44a4dba4c6a3352e437a88dc547aadc9085
+
+Package: forgejo
+Architecture: aarch64
+Installed-Size: 126008
+Maintainer: @termux
+Version: 17.0.2-1
+Homepage: https://forgejo.org/
+Depends: dash, git
+Description: Forgejo is a self-hosted lightweight software forge.
+Filename: ./forgejo_17.0.2-1_aarch64.deb
+Size: 34536820
+MD5sum: 07f75078de64e0b4f49498dad251399b
+SHA1: 82650bf2fec74c6837974e6a645fe1c18ff863a8
+SHA256: b181cafd3490c9eb0f68f0afb88007952bde8045eb24d30223d5273dd34b13eb
 
 Package: gh
 Architecture: aarch64
@@ -532,6 +616,33 @@ MD5sum: 79b99ac841e2f650a1df93bd2740f435
 SHA1: df370b4dbf93daa3e78f7a3b79d78f47fd0d3fa8
 SHA256: 121c43b3e324542a361eeb723fc7585c8150c48c9c77f7a10e9bab1e4bb378f2
 
+Package: haproxy
+Architecture: aarch64
+Installed-Size: 6428
+Maintainer: @termux
+Version: 3.4.8-1
+Homepage: https://www.haproxy.org/
+Depends: lua53, openssl, pcre2, zlib
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
+Filename: ./haproxy_3.4.8-1_aarch64.deb
+Size: 1726828
+MD5sum: 8a95135a7f9c52c7ac16be1ea2581d0c
+SHA1: 4f521d52fa7af30979b13ea1cc9f93351f1cfc53
+SHA256: 84fbb20b3960b1df38077933e3cbc827567a553190dda64feb4ea25398e08227
+
+Package: harper
+Architecture: aarch64
+Installed-Size: 63060
+Maintainer: @termux
+Version: 3.3.0-1
+Homepage: https://writewithharper.com/
+Description: Offline, privacy-first grammar checker. Fast, open-source, Rust-powered
+Filename: ./harper_3.3.0-1_aarch64.deb
+Size: 12490760
+MD5sum: e32dcd30b6937a70dc3fd8d5d969188b
+SHA1: 054a6922d7c3a6a83647ac53c69bfa94c84b6656
+SHA256: 2cee550aeaafb01e4dc2ec0f9a21594621a5552384d78801368535cf232a98f5
+
 Package: inotify-tools-static
 Architecture: aarch64
 Installed-Size: 24784
@@ -546,6 +657,20 @@ MD5sum: b5deedad888bbeef79b836aa02a07e9a
 SHA1: b56957efe72ac38daedd7118361639dc5624a190
 SHA256: 4702872f3e9e3a445f3f7875be38ad4487eb826f8c0b00e57afeafc3b9cbec20
 
+Package: inotify-tools-static
+Architecture: aarch64
+Installed-Size: 24784
+Maintainer: @termux
+Version: 4.26.291-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Depends: inotify-tools (= 4.26.291-1)
+Description: Static libraries for inotify-tools
+Filename: ./inotify-tools-static_4.26.291-1_aarch64.deb
+Size: 4302144
+MD5sum: edf51be2fc1bb42e47668c317dccb4c5
+SHA1: e10455f03b32a57690945b6def675f6f85a592f8
+SHA256: 6f5522932f0b7b4926d83ddebb27c32d25acf1757926fdba562fa5427edf9599
+
 Package: inotify-tools
 Architecture: aarch64
 Installed-Size: 1272
@@ -558,6 +683,19 @@ Size: 292144
 MD5sum: 32d66980c5453c8c865c085fb64e21d8
 SHA1: 2ee9346ba0694b614c24ecbbcdf673bed1d596b9
 SHA256: 0b0ab99c5bae6fc3b949b81814203db8e6998fe08dd0f0e17fb3bba83609e3f3
+
+Package: inotify-tools
+Architecture: aarch64
+Installed-Size: 1272
+Maintainer: @termux
+Version: 4.26.291-1
+Homepage: https://github.com/rvoicilas/inotify-tools/wiki
+Description: Programs providing a simple interface to inotify
+Filename: ./inotify-tools_4.26.291-1_aarch64.deb
+Size: 292080
+MD5sum: d2da9f363777fcc471dd14c00ef1ca2f
+SHA1: 323fe956a7e35b0c980d5ddc6afc7655493b4a95
+SHA256: 66388db9363affbbf27fdcdc4876de9b16b381462e812a78a167ad97b2391dae
 
 Package: jackett
 Architecture: aarch64
@@ -601,6 +739,21 @@ Size: 18124
 MD5sum: b7f64057cb0367a06f36da827adb9922
 SHA1: b5f599706fd26dcff40f9bbb3501b4a3b79322d5
 SHA256: b7193229d981738390e1de4c8a2f100968dd7dcfb194eae5a43fcf33fe6f6262
+
+Package: libcue
+Architecture: aarch64
+Installed-Size: 108
+Maintainer: @termux
+Version: 2.4.3-1
+Homepage: https://github.com/lipnitsk/libcue/
+Breaks: libcue-dev
+Replaces: libcue-dev
+Description: CUE Sheet Parser Library
+Filename: ./libcue_2.4.3-1_aarch64.deb
+Size: 18104
+MD5sum: 01c8710082ad60ea48346a6637bcfa0e
+SHA1: b3257896e97dc8269451a3e0a4006c02e37e56d6
+SHA256: 6d339671c1d12457e3659fc3cab711b0de82d45116af11dfcc8fd6c0bcf850cd
 
 Package: libdav1d
 Architecture: aarch64
@@ -752,6 +905,47 @@ MD5sum: 6172884809b8af0257a40e785bbd4e0b
 SHA1: 282459ee4930294a1a1180fbf4af9cfa8d14b86f
 SHA256: 4a66b785304b7f6b5e224cfde6a5331d62fd7ad89c7ffda3d7923c047a25b0ba
 
+Package: libtd-static
+Architecture: aarch64
+Installed-Size: 135708
+Maintainer: @termux
+Version: 1.8.70-1
+Homepage: https://core.telegram.org/tdlib/
+Depends: libtd (= 1.8.70-1)
+Description: Static libraries for libtd
+Filename: ./libtd-static_1.8.70-1_aarch64.deb
+Size: 12416416
+MD5sum: 3fc81a01aabf70f687edc5e3b7e8d56f
+SHA1: da45dd9a4db73ca98faad937bdd0138ffeba19fd
+SHA256: f8231c09d47b97b7aa8170dc342cf86774e83ff8d645c220cf31dca7208ac987
+
+Package: libtd
+Architecture: aarch64
+Installed-Size: 36476
+Maintainer: @termux
+Version: 1.8.70-1
+Homepage: https://core.telegram.org/tdlib/
+Depends: libc++, readline, openssl (>= 1.1.1), zlib
+Description: Library for building Telegram clients
+Filename: ./libtd_1.8.70-1_aarch64.deb
+Size: 6687668
+MD5sum: 92c82fe2ec802dacb0542dab3f59da45
+SHA1: 58e2809d8d1deee5a58b487b21673aa2960cd347
+SHA256: 0997c7da8cc9479db59a6a32befaba1845145011057cdfb74728ae6baf09ab0f
+
+Package: libuber-h3
+Architecture: aarch64
+Installed-Size: 512
+Maintainer: @termux
+Version: 4.6.0-1
+Homepage: https://h3geo.org/
+Description: A hexagonal hierarchical geospatial indexing system
+Filename: ./libuber-h3_4.6.0-1_aarch64.deb
+Size: 94428
+MD5sum: 10d35e3428853257b045f168f37b2771
+SHA1: 49d15a886b494d3762a90c9566f3c93df38aecfd
+SHA256: dd3b7f0e6a9a80fe6a80d83ccb0cc2e27b4c46d18f2f622b8911edf5d9678824
+
 Package: libvips
 Architecture: aarch64
 Installed-Size: 3456
@@ -765,6 +959,21 @@ Size: 1098680
 MD5sum: 875c3d8868a7c2680ac4248453da7eae
 SHA1: 2289738e3be9bcba91702e399caeebb7e911f8ea
 SHA256: 99eedb75e9506afc5cd4b20686200bc06fe9c5afbe32aecfcc61f335bd5a0ffa
+
+Package: lux-cli
+Architecture: aarch64
+Installed-Size: 27272
+Maintainer: @termux
+Version: 0.55.2-1
+Homepage: https://lux.lumen-labs.org
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Description: A package manager for Lua, similar to luarocks
+Filename: ./lux-cli_0.55.2-1_aarch64.deb
+Size: 8219128
+MD5sum: 5b9ad307c4f62300f6c914bf92614f52
+SHA1: 53b9b9d7198a2a4d51b5d5db908cba0fc511bcc4
+SHA256: 30aecc8d442f36312b120beafc75263fff27a0a1e43448c6a6a2ca0fff7b2b9f
 
 Package: lwjgl3-3.2.1
 Architecture: aarch64
@@ -918,6 +1127,20 @@ MD5sum: fc88de6bb5a0152ef0aaf66fe8a0e756
 SHA1: 385af9fc09b5ef72d17b0ad590b6989d26e99a20
 SHA256: 5027f543cfe2ad71e3ed9ddb597c213825cc6300d74d3df3a89d888ee2ac32ac
 
+Package: megatools
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 1.12.2.20261116-1
+Homepage: https://xff.cz/megatools/
+Depends: glib, libandroid-support, libcurl, openssl
+Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
+Filename: ./megatools_1.12.2.20261116-1_aarch64.deb
+Size: 101868
+MD5sum: 137b95f5a33c6f41c4a67821c146a6b9
+SHA1: 62a8851a4c5f97bcfef7033c4735cf3e62a43391
+SHA256: 86bdf0436b1727c9c9bb04b17ceba6d0f13117e32269dab26dbeb3f86c88493e
+
 Package: minizinc-static
 Architecture: aarch64
 Installed-Size: 21368
@@ -988,6 +1211,22 @@ Size: 327592
 MD5sum: 1b59b19077ac7acf9a57b21f2ea41b38
 SHA1: d8684b64309918c099ccfb176eaf91d5569bf0a7
 SHA256: 188a17725a2c9cdf5e1d6531aedafc126e58acad260963680b748541629bbfa5
+
+Package: ncdu
+Architecture: aarch64
+Installed-Size: 136
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 1.24.0-1
+Homepage: https://dev.yorhel.nl/ncdu
+Depends: libandroid-support, ncurses
+Conflicts: ncdu2
+Replaces: ncdu2
+Description: Disk usage analyzer
+Filename: ./ncdu_1.24.0-1_aarch64.deb
+Size: 37624
+MD5sum: 2c602dfdcb71738339622c10f2db0f25
+SHA1: 30d1d4fb6a4829691ec9fa6c157e0fd15a02f8a4
+SHA256: afecf1118828420f7a19310ae23ffbe994156c69896f92b92b4852306f80cf81
 
 Package: nginx
 Architecture: aarch64
@@ -1088,6 +1327,19 @@ MD5sum: c422becd635fa857c7bb856e431c9391
 SHA1: d87ee2698f910b8786778634959ec27bf2e1d1e1
 SHA256: 67b2b77f460f10cfb7b20f799b662a0627c5df351011783cb7c0932a19538a81
 
+Package: opkssh
+Architecture: aarch64
+Installed-Size: 16304
+Maintainer: @termux
+Version: 0.20.0-1
+Homepage: https://github.com/openpubkey/opkssh
+Description: Enables SSH to be used with OpenID Connect
+Filename: ./opkssh_0.20.0-1_aarch64.deb
+Size: 4191216
+MD5sum: d39b3bbc4804d4e4aca67c6edcdb2066
+SHA1: fd51dda737c5b74db134e97588a520f9eb35d18b
+SHA256: 587e1613b376c2b7ca7cb30ea2a5afc57162d9a884e1def6c0bb838f49e0f3c7
+
 Package: pcscd
 Architecture: aarch64
 Installed-Size: 160
@@ -1148,6 +1400,19 @@ Size: 2847876
 MD5sum: b71ea4d9173288b89ad4d5053ef414f8
 SHA1: 9484ce608d617e8893a55d90c7707c528acf0339
 SHA256: 3769040793b2498be571c646ba57a86cdab4a7ffd837a0c6f33881996f825d4c
+
+Package: pyrefly
+Architecture: aarch64
+Installed-Size: 27756
+Maintainer: @AhmadNaruto
+Version: 1.5.0-1
+Homepage: https://github.com/facebook/pyrefly.git
+Description: A fast type checker and language server for Python
+Filename: ./pyrefly_1.5.0-1_aarch64.deb
+Size: 10825996
+MD5sum: a940d22605151c680bf8a0bd0f4c3eed
+SHA1: 38a3945eac2745a9c7b943e1f864f7a74661431d
+SHA256: 23622c5731b031aed20f7dc4396a1e9411a21f124e9e311e9d9174d20d5254e2
 
 Package: python-grpcio
 Architecture: aarch64
@@ -1465,6 +1730,19 @@ MD5sum: c659016b6bb71faf657b4b27e1cd4d9e
 SHA1: e7070c48458fe9dfa9bc278dd07d4b7a65af4af5
 SHA256: dc95b4fe999090f66166f129d6594fd8f76471422ea09aa0bacd68b30f958e14
 
+Package: ty
+Architecture: aarch64
+Installed-Size: 29716
+Maintainer: @termux
+Version: 0.0.107-1
+Homepage: https://github.com/astral-sh/ty
+Description: An extremely fast Python type checker and language server, written in Rust
+Filename: ./ty_0.0.107-1_aarch64.deb
+Size: 9575660
+MD5sum: 4f27880c2b730849b2dbb704578684b3
+SHA1: 31a9a63879b3d53dfa31a51c73254e7975cc019e
+SHA256: f16b87f32a24a7cb186f8290979d1a9fbc1284768dbba0cc1e85bc29abb7270d
+
 Package: uv
 Architecture: aarch64
 Installed-Size: 34460
@@ -1477,6 +1755,37 @@ Size: 10560648
 MD5sum: 1e2bbe2d15b181b84104e9ef505d9b60
 SHA1: 3781ab2d245e520f9c8e0c099144de13a0188303
 SHA256: 19adb67fbaa67666cb59ecd25091183848d30ce0e264ab05f69a3ad4590ee60b
+
+Package: valkey-static
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: @termux
+Version: 9.1.4-1
+Homepage: https://valkey.io/
+Depends: valkey (= 9.1.4-1)
+Description: Static libraries for valkey
+Filename: ./valkey-static_9.1.4-1_aarch64.deb
+Size: 82204
+MD5sum: cd0c5c1bca3f6c57141d160ad2fd9acd
+SHA1: b0c70c783bb32cd8d62468032a500f242c427283
+SHA256: 4833e1376af1d31256b219ec851723f6eadba39fb4d72c8b7cc36d1bd886e41f
+
+Package: valkey
+Architecture: aarch64
+Installed-Size: 4516
+Maintainer: @termux
+Version: 9.1.4-1
+Homepage: https://valkey.io/
+Breaks: redis
+Depends: libandroid-execinfo, libandroid-glob
+Conflicts: redis
+Provides: redis
+Description: In-memory data structure store used as a database, cache and message broker
+Filename: ./valkey_9.1.4-1_aarch64.deb
+Size: 1148376
+MD5sum: a692fcd62c81f4e5f4d1a789cdd7b4a9
+SHA1: 56c291df968dfd9edca4fee2c9f999cbb30e1f73
+SHA256: 590de3d16e01c54140b5796407bb96dde37f068ad2e2712ce60a5c4b94cb31ac
 
 Package: zrok2
 Architecture: aarch64
