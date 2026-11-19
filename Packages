@@ -1,3 +1,45 @@
+Package: aspnetcore-runtime-10.0
+Architecture: aarch64
+Installed-Size: 26648
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime
+Filename: ./aspnetcore-runtime-10.0_10.0.15-2_aarch64.deb
+Size: 7121656
+MD5sum: f5f3bb50f14d5e7c70e7eb952d661133
+SHA1: 696206353f326a7b5993a3815af53b830a909618
+SHA256: 1a3d729d7fb4040858a589d588c3c6f5cbfb24dd1c0c9e6b560817d6c949ca8a
+
+Package: aspnetcore-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 5856
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0
+Description: ASP.NET Core 10.0 Runtime Managed Debug Symbols
+Filename: ./aspnetcore-runtime-dbg-10.0_10.0.15-2_aarch64.deb
+Size: 1559856
+MD5sum: 7e9953cf9e88e151dd90b8908a09d64b
+SHA1: 6c85bbd5b3dadcb729c2586175c767bbc987803b
+SHA256: ee4da8bb0fa65d4b7d529a07d420a5b307c8dd96077356a97abd8c52d293d74d
+
+Package: aspnetcore-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 47260
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: ASP.NET Core 10.0 Targeting Pack
+Filename: ./aspnetcore-targeting-pack-10.0_10.0.15-2_aarch64.deb
+Size: 3416420
+MD5sum: 1cdd1a842c258ba58817104e08cbc3c2
+SHA1: eecf5010d5a2aafe984bda71dc4504e7d9724fbd
+SHA256: b8aac3cef8483cd17714664b44453fbd9ac28c4e8997a43ec392f87cb06faacb
+
 Package: astyle
 Architecture: aarch64
 Installed-Size: 1056
@@ -164,6 +206,119 @@ Size: 4145056
 MD5sum: e9df91d6242b083e83657fa2e8667f87
 SHA1: 37109685f7ce967f69b340da78023828c3d8bee6
 SHA256: 56be17d6ae4aa37d951a32ac62ccad7710750e55481e7522fc43498d764c47cb
+
+Package: dotnet-apphost-pack-10.0
+Architecture: aarch64
+Installed-Size: 2016
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-apphost-pack-10.0_10.0.15-2_aarch64.deb
+Size: 277400
+MD5sum: 17a11f5c420ea66ef9a9f6ca49e1f2ff
+SHA1: 7a60d66e1f7dc909095035ee887161e60eaf8e9a
+SHA256: 5100f1eaf709c61c28a14445e0b4c705c33e4f1a25583f4a6858b2fa1afc2b07
+
+Package: dotnet-host-10.0
+Architecture: aarch64
+Installed-Size: 556
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Conflicts: dotnet-host-8.0, dotnet-host-9.0
+Description: .NET 10.0 Host
+Filename: ./dotnet-host-10.0_10.0.15-2_aarch64.deb
+Size: 182456
+MD5sum: ef42e8312567e7cbeb31802f8e68cabf
+SHA1: de1fb85eb75d67c9f14e1934c73e6072ad6cc425
+SHA256: 2588fe32795a3e79aed369c3c289f0b4bdb24463bf17e28d980a2140869bb1ee
+
+Package: dotnet-hostfxr-10.0
+Architecture: aarch64
+Installed-Size: 480
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Host Resolver
+Filename: ./dotnet-hostfxr-10.0_10.0.15-2_aarch64.deb
+Size: 144112
+MD5sum: 5b578d85afbdc1d229c997aef9803b9b
+SHA1: 058110886bba13e96b7fb3450253a9705ac0609c
+SHA256: aae28a06fbb08a30c45e4afeac7604b8d6d7656f81bb77239f076e5d7f3c7bd9
+
+Package: dotnet-runtime-dbg-10.0
+Architecture: aarch64
+Installed-Size: 8980
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-runtime-10.0
+Description: .NET 10.0 Runtime Managed Debug Symbols
+Filename: ./dotnet-runtime-dbg-10.0_10.0.15-2_aarch64.deb
+Size: 2637800
+MD5sum: 349dc9f63ae70b6838ac097408d8fdd1
+SHA1: ff99e69246faf1982685a10338591790dfa7bac0
+SHA256: f8a5bfa400da9e2ccb33bc32b97945f78f181879453c6ff6430820fe77648927
+
+Package: dotnet-sdk-dbg-10.0
+Architecture: aarch64
+Installed-Size: 16376
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-sdk-10.0
+Description: .NET 10.0 SDK Managed Debug Symbols
+Filename: ./dotnet-sdk-dbg-10.0_10.0.15-2_aarch64.deb
+Size: 2836268
+MD5sum: 3fe9d2b9c78b335d4718dd8195d0fdc5
+SHA1: de76cd83df4a82d8df9bac1e4a797a409ca67dad
+SHA256: e2b12eca306fca4ccb05861e0796000a0934107b4c4d1a62e25f5ef8267ffd04
+
+Package: dotnet-targeting-pack-10.0
+Architecture: aarch64
+Installed-Size: 40552
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Targeting Pack
+Filename: ./dotnet-targeting-pack-10.0_10.0.15-2_aarch64.deb
+Size: 2984084
+MD5sum: e692231ff64f965f4a6170e3440d4ecb
+SHA1: 2ce4b414f0d6e858de281e0face196a0cfd703a6
+SHA256: fd66e81b36e2f4fb4ab7120249a311edf2db08598466fa24e457332ad7b051e6
+
+Package: dotnet-templates-10.0
+Architecture: aarch64
+Installed-Size: 10312
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: dotnet-host
+Description: .NET 10.0 Templates
+Filename: ./dotnet-templates-10.0_10.0.15-2_aarch64.deb
+Size: 2932324
+MD5sum: 739ae0903286c0be1342e580393a6e4b
+SHA1: 21ee9d4b5cd433b74da53ea7461769d92e6610ef
+SHA256: 5144dbf1666e935213675c957d33acb70bd879d1ad798ed9a2ae6e3f6be0dc08
+
+Package: dotnet10.0
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 10.0.15-2
+Homepage: https://dotnet.microsoft.com/en-us/
+Depends: aspnetcore-runtime-10.0, dotnet-host, dotnet-runtime-10.0
+Conflicts: dotnet8.0, dotnet9.0
+Suggests: dotnet-sdk-10.0
+Description: .NET 10.0
+Filename: ./dotnet10.0_10.0.15-2_aarch64.deb
+Size: 1696
+MD5sum: 37564b5a1eb5b65dd8178fbbcc552105
+SHA1: e8ac4d3150d9fa4248be0d8ef25d990428e7d498
+SHA256: 280df4c78bd5ad2e49f84f80aabb32b1ce13624643dd648400dac3c90dd40000
 
 Package: flex-static
 Architecture: aarch64
